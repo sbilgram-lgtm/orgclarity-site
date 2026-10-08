@@ -95,7 +95,7 @@ export default function App() {
           </p>
           <p className="about-text">
             I built the SF Tech Debt Assessor — a free, read-only tool that automatically scans any Salesforce
-            org across 399 checks in 23 categories and delivers a scored, actionable health report in under
+            org across 402 checks in 23 categories and delivers a scored, actionable health report in under
             5 minutes. No manual work, no guesswork.
           </p>
         </div>
@@ -129,7 +129,7 @@ export default function App() {
             <div className="tool-left">
               <div className="tool-stats">
                 {[
-                  { value: '399', label: 'Checks' },
+                  { value: '402', label: 'Checks' },
                   { value: '23', label: 'Categories' },
                   { value: '100%', label: 'Read-Only' },
                   { value: '< 5 min', label: 'To Complete' },
@@ -199,7 +199,7 @@ export default function App() {
       <section className="cta-section">
         <div className="section-inner">
           <h2 className="cta-title">Ready to assess your org?</h2>
-          <p className="cta-sub">Run a free 399-check assessment in under 5 minutes — no installation, no data stored.</p>
+          <p className="cta-sub">Run a free 402-check assessment in under 5 minutes — no installation, no data stored.</p>
           <div className="hero-actions">
             <a href={TOOL_URL} target="_blank" rel="noreferrer" className="btn-primary">Run a Free Assessment</a>
             <a href={LINKEDIN} target="_blank" rel="noreferrer" className="btn-secondary">Connect on LinkedIn</a>
